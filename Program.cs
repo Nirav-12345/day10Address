@@ -1,13 +1,15 @@
 ﻿using System;
 
-namespace EmpUC10;
-
-class Program
+namespace AddressBookUC1
 {
-    public static void Main(string[] args)
+    class Program
     {
-        EmpBui Build = new EmpBui();
-        Build.U10C("Dmart", 2, 3, 4,0);
-        Build.computeEmpWage();
+        public static void Main(string[] args)
+        {
+            AddressBook n = new AddressBook("nirav", "raj", "7585853052", "ffff", 2);
+            n.AddressBook1("nirav", "raj", "7585853052", "ffff", 2);
+
+            n.display();
+        }
     }
 }
