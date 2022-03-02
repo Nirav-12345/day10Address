@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace EmpUC9;
+namespace EmpUC10;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        U9C dmart = new U9C("twtwt",20,2,10);
-
-        dmart.ComputeWage();
+        EmpBui Build = new EmpBui();
+        Build.U10C("Dmart", 2, 3, 4);
+        Build.computeEmpWage();
     }
 }
